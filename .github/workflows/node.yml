@@ -25,4 +25,4 @@ jobs:
         run: |
           if [ -f package.json ] && grep -q '"build"' package.json; then
             npm run build
-          else
+          fi
